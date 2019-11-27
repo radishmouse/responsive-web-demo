@@ -27,5 +27,13 @@
 # What are three ways of handling Responsive Images?
 
 - #1. Background images in CSS (background-size: cover)
-- #2. Use srcset to specify different images for different resolutions
-- #3. Use <picture> for differently cropped images
+- #2. Use `srcset` to specify different images for different resolutions
+- #3. Use `<picture>` for differently cropped images
+
+# When should I use `srcset`?
+
+For providing different resultions of the same images.
+
+# When should I use `<picture>`?
+
+When the designer wants different images to appear for different sized screens.

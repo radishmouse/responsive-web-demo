@@ -12,7 +12,31 @@
     <header></header>
     <div class="wrapper">
         <nav></nav>
-        <section></section>
+        <section>
+            <picture>
+                <source
+                    media="(max-width: 599px)"
+                    srcset="images/dog-closeup.jpg"
+                >                
+                <source
+                    media="(min-width: 600px)"
+                    srcset="images/dog-medium.jpg"
+                >
+                <img src="images/dog-large.jpg" alt="Happy Corgi at the pool"></src>
+            </picture>
+
+            <!-- <img srcset="images/dog-small.jpg 1x,
+                        images/dog-medium.jpg 2x,
+                        images/dog-large.jpg 3x"
+                src="images/dog-large.jpg" alt="Happy Corgi at the pool">             -->
+            <!-- <img srcset="images/dog-small.jpg 640w,
+                        images/dog-medium.jpg 1280w,
+                        images/dog-large.jpg 2048w"
+                  size="(max-width: 400px) 380px,
+                        (max-width: 600px) 500px,
+                        800px"
+                src="images/dog-large.jpg" alt="Happy Corgi at the pool"> -->
+        </section>
         <!-- <section>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam similique laboriosam, soluta ex necessitatibus odit nihil laborum consectetur expedita quidem dignissimos ipsum quo maiores optio eveniet quasi animi minima ab?</p>
         </section> -->
